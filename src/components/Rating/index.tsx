@@ -2,7 +2,7 @@
 import { RatingNumber } from "@/components";
 
 // Constant
-import { VARIANT_RATING } from "@/constants";
+import { VARIANT_RATING, RATING } from "@/constants";
 
 const Rating = ({
   reviews,
@@ -23,7 +23,7 @@ const Rating = ({
         <div>
           <img
             className="inline-block mr-1.5"
-            src="/src/assets/images/rating-icon.svg"
+            src={RATING.IMG}
             width={71}
             height={10}
             alt="star"
