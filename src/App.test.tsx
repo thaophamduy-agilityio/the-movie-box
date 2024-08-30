@@ -13,7 +13,7 @@ describe("App", () => {
       {
         id: 1,
         publicYear: 2017,
-        imgSrc: "src/assets/images/movies/logan.webp",
+        imgSrc: "/images/movies/logan.webp",
         title: "Logan",
         genres: ["Action", "Adventure", "Fantasy"],
         rating: 4.2,

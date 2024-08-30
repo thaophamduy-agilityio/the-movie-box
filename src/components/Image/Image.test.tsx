@@ -6,7 +6,7 @@ import Image from "./index";
 
 describe("Image", () => {
   const props = {
-    imageSrc: "/src/assets/images/movies/logan.webp",
+    imageSrc: "/images/movies/logan.webp",
     altText: "Logan",
     size: {
       width: 146,

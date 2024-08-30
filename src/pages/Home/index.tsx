@@ -14,7 +14,7 @@ import { FETCH_MESSAGES, FEATURED_MOVIE } from "@/constants";
 import { getMovies } from "@/services";
 
 // Styles
-import "src/assets/styles/app.css";
+import "public/styles/app.css";
 
 const Home = () => {
   const [listMovies, setListMovies] = useState<MovieInfoData[]>([]);

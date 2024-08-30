@@ -5,7 +5,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 1,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/logan.webp",
+    imgSrc: "/images/movies/logan.webp",
     title: "Logan",
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 4.2,
@@ -16,7 +16,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 2,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/john-wick.webp",
+    imgSrc: "/images/movies/john-wick.webp",
     title: "John Wick: Chapter 2",
     genres: ["Action", "Thriller"],
     rating: 4.2,
@@ -27,7 +27,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 3,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/fantastic-beasts.webp",
+    imgSrc: "/images/movies/fantastic-beasts.webp",
     title: "Fantastic beasts and where to find them",
     genres: ["Adventure", "Fantasy", "Action"],
     rating: 4.2,
@@ -38,7 +38,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 4,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/fifty-shades-darker.webp",
+    imgSrc: "/images/movies/fifty-shades-darker.webp",
     title: "Fifty shades darker",
     genres: ["Drama", "Roman"],
     rating: 4.2,
@@ -49,7 +49,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 5,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/beauty-and-beast.webp",
+    imgSrc: "/images/movies/beauty-and-beast.webp",
     title: "Beauty and the Beast",
     genres: ["Musical", "Drama", "Fantasy"],
     rating: 4.2,
@@ -60,7 +60,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 6,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/arrival.webp",
+    imgSrc: "/images/movies/arrival.webp",
     title: "Arrival",
     genres: ["Action", "Thriller", "Sci-Fi"],
     rating: 4.2,
@@ -71,7 +71,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 7,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/justice-league.webp",
+    imgSrc: "/images/movies/justice-league.webp",
     title: "Justice League",
     genres: ["Adventure", "Sci-Fi", "Action"],
     rating: 4.2,
@@ -82,7 +82,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 8,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/pirates-caribbean.webp",
+    imgSrc: "/images/movies/pirates-caribbean.webp",
     title: "Pirates of the Caribbean dead men tell no tales",
     genres: ["Adventure", "Fantasy", "Action"],
     rating: 4.2,
@@ -93,7 +93,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 9,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/wonder-woman.webp",
+    imgSrc: "/images/movies/wonder-woman.webp",
     title: "Wonder Woman",
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 4.2,
@@ -104,7 +104,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 10,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/guardians-galaxy.webp",
+    imgSrc: "/images/movies/guardians-galaxy.webp",
     title: "Guardians of the Galaxy holiday special",
     genres: ["Action", "Sci-Fi", "Comedy"],
     rating: 4.2,
@@ -115,7 +115,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 11,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/alien-covenant.webp",
+    imgSrc: "/images/movies/alien-covenant.webp",
     title: "Alien: Covenant",
     genres: ["Horror", "Action", "Sci-Fi", "Action"],
     rating: 4.2,
@@ -126,7 +126,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 12,
     publicYear: 2017,
-    imgSrc: "src/assets/images/movies/captain-underpants.webp",
+    imgSrc: "/images/movies/captain-underpants.webp",
     title: "Captain Underpants",
     genres: ["Animation", "Comedy"],
     rating: 4.2,
@@ -137,7 +137,7 @@ export const MOVIE_LIST_DATA: MovieInfoData[] = [
   {
     id: 13,
     publicYear: 2017,
-    imgSrc: "src/assets/images/bg-hero.webp",
+    imgSrc: "/images/bg-hero.webp",
     title: "Wrath of the titans",
     genres: ["Fantasy", "Animation", "Family"],
     rating: 3.4,
