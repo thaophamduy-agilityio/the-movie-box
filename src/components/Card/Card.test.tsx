@@ -9,7 +9,7 @@ describe("Card", () => {
   const props = MOVIE_LIST_DATA[0];
 
   test("Should match snapshot", async () => {
-    const container = render(<Card {...props} />);
+    const container = render(<Card cardData={props} />);
 
     expect(container).toMatchSnapshot();
   });

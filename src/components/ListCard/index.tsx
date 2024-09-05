@@ -17,16 +17,7 @@ interface ListCardProps {
 
 const ListCard = ({ listCard, onChange }: ListCardProps) => {
   const renderListCard = (): JSX.Element[] | undefined => {
-    return listCard?.map((card) => (
-      <Card
-        key={card.id}
-        publicYear={card.publicYear}
-        imgSrc={card.imgSrc}
-        title={card.title}
-        genres={card.genres}
-        rating={card.rating}
-      />
-    ));
+    return listCard?.map((card) => <Card key={card.id} cardData={card} />);
   };
 
   return (

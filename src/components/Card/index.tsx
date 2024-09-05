@@ -1,18 +1,19 @@
 // Components
 import { RatingNumber, Image } from "@/components";
 
+// Types
+import { MovieInfoData } from "@/types";
+
 // Utils
 import { joinString } from "@/utils";
 
 interface CardProps {
-  publicYear?: number;
-  imgSrc?: string;
-  title: string;
-  genres: string[];
-  rating: number;
+  cardData: MovieInfoData;
 }
 
-const Card = ({ publicYear, imgSrc, title, genres, rating }: CardProps) => {
+const Card = ({ cardData }: CardProps) => {
+  const { publicYear, imgSrc, title, genres, rating } = cardData;
+
   return (
     <li className="relative bg-white shadow-movie-card cursor-pointer">
       <figure className="relative">
